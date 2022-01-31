@@ -1,0 +1,139 @@
+/* import fonts from fonts.css file */
+@import url(./fonts.css);
+@import url(./partials/_variabel.css);
+
+
+
+* {
+    font-family: var(--poppins);
+    color: var(--text-color);
+}
+
+.navbar {
+    z-index: 100;
+}
+
+.carousel {
+    top: -100px;
+    bottom: 0;
+}
+
+.carousel-caption p {
+    text-align: left;
+}
+
+.carousel-caption>p>strong:hover {
+    color: var(--secondary-color)
+}
+
+.card-img-top {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.owl-prev {
+    left: -30px;
+}
+
+.owl-next {
+    right: -30px;
+}
+
+.owl-prev, .owl-next {
+    position: absolute;
+    top: 90px;
+}
+
+.owl-prev span, .owl-next span {
+    font-size: 100px;
+    color: var(--secondary-color);
+}
+
+
+.button-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+
+.button-more button {
+    background-color: var(--secondary-color);
+}
+
+.button-more button:hover {
+    background-color: var(--text-color);
+    color: var(--secondary-color);
+}
+
+.nounderline {
+    text-decoration: none !important
+  }
+
+section#product {
+    margin-top: -100px !important;
+}
+
+#product, #shipping{
+    background-color: var(--primary-color);
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+footer {
+    background-color: var(--primary-color);
+}
+
+.card.shop {
+    border: none;
+}
+
+.card.shop a {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+.card.shop a:hover {
+    background-color: var(--text-color);
+    color: var(--secondary-color);
+}
+
+.card.shop.bg-foto {
+position: relative;
+  top: 0;
+  left: 0;
+}
+
+.card.shop img {
+    border-radius: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.card.shop img.logo-pic {
+    width: 200px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+
+iframe {
+    margin-left: 100px;
+}
+
+iframe:hover {
+    transform: scale(1.02);
+}
+
+i {
+    font-size: 1.2em;
+}
+
+footer a {
+    color: var(--text-color);
+    font-size: 1.5em;
+}
